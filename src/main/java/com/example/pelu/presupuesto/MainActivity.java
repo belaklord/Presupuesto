@@ -59,11 +59,23 @@ public class MainActivity extends AppCompatActivity  implements OnItemSelectedLi
         Intent intent = new Intent();
         // Handle item selection
 
-        if(item == "ERP(odoo)"){
+        /*
+
+       Cambiar por un swich case --> mas optimo
+         */
+
+        if(item == "Mantenimiento(tarifas)"){
             intent.setClass(MainActivity.this, Mantenimiento.class);
             startActivity(intent);
             finish();
 
+        }
+
+        else if (item == "Mantenimiento web"){
+
+            intent.setClass(MainActivity.this, MantenimientoWeb.class);
+            startActivity(intent);
+            finish();
         }
 
 

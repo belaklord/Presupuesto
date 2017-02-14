@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/neritechnologyredc2"
+        android:id="@+id/imageView2" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="0.16" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:id="@+id/radioButton4"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textAlignment="center" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/radioButton5"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textAlignment="center" />
+
+    </GridLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.68" />
+
+    <Button
+        android:text="Contratar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="@color/colorAccent"
+        android:textColor="@color/cardview_light_background" />
+
+</LinearLayout>

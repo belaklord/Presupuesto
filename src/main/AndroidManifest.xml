@@ -23,6 +23,8 @@
             android:label="Tarifas..."/>
         <activity   android:name=".Mantenimiento"
             android:label="Mantenimiento..."/>
+        <activity   android:name=".MantenimientoWeb"
+            android:label="Mantenimiento web..."/>
     </application>
 
 </manifest>
