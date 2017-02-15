@@ -78,6 +78,8 @@
         android:text="Contratar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button6" />
+        android:id="@+id/button6"
+        android:background="@color/colorAccent"
+        android:textColor="@color/cardview_light_background" />
 
 </LinearLayout>
